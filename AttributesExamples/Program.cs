@@ -1,7 +1,7 @@
 ﻿#define LOG_INFO
 using System;
 using System.Reflection;
-using LoggingComponent;
+using LoggingComponent;   //用于日志记录和验证功能的
 using ValidationComponent;
 using AttributesExamples.Models;
 using System.Text.Json;
