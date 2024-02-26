@@ -13,7 +13,7 @@ namespace AttributesExamples.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(15,2)]
+        [StringLength(15,2)]  //最大长度为15 ，最小长度为2
         public string DeptShortName { get; set; }
         public string DeptLongName { get; set; }
 
